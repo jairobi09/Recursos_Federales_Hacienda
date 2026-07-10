@@ -1,0 +1,107 @@
+@import 'tailwindcss';
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background: var(--color-fondo-pagina);
+  color: var(--color-texto-pagina);
+
+}
+
+@font-face {
+  font-family: 'Patria';
+  src: url('./assets/fonts/Patria_Regular.otf') format('opentype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Patria Bold';
+  src: url('./assets/fonts/Patria_Bold.otf') format('opentype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./assets/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans Bold';
+  src: url('./assets/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans Black';
+  src: url('./assets/fonts/NotoSans-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-display: swap;
+}
+h1 {
+  font-family: 'Patria Bold', sans-serif;
+  font-size: clamp(36px, 3vw, 4rem);
+  font-weight: 900;
+}
+
+h2 {
+  font-family: 'Noto Sans Black', sans-serif;
+  font-size: clamp(26px, 2.5vw, 2.8rem);
+  font-weight: 900;
+}
+
+h3 {
+  font-family: 'Noto Sans Bold', sans-serif;
+  font-size: clamp(20px, 2vw, 1.5rem);
+  font-weight: 700;
+}
+
+h4 {
+  font-family: 'Noto Sans Bold', sans-serif;
+  font-size: clamp(18px, 1.5vw, 1.25rem);
+  font-weight: 700;
+}
+
+h5 {
+  font-family: 'Noto Sans SemiBold', sans-serif;
+  font-size: clamp(16px, 1.2vw, 1.1rem);
+  font-weight: 600;
+}
+
+h6 {
+  font-family: 'Noto Sans SemiBold', sans-serif;
+  font-size: clamp(14px, 1vw, 1rem);
+  font-weight: 600;
+}
+
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  text-align: justify;
+}
+
+#back-to-top {
+  padding: 0 0 6px 1px;
+}
+:root{
+  /*Colores pagina*/
+  --color-fondo-pagina:#f9f9f9;
+  --color-texto-pagina:#1a1a1a;
+  /*Colores secciones*/
+  --color-fondo-seccion-par:#fef9f1;
+  --color-texto-seccion-par:#15181c;
+  --color-fondo-seccion-impar:#ffffff;
+  --color-texto-seccion-impar:#15181c;
+
+  /*Colores*/
+  --color-dorado:#9b7a35;
+  --color-verde:#24a58a;
+  --color-blanco:#fff;
+
+  /*Border*/
+  --borde-radio:1.5rem;
+  --borde-color:#959595;
+}

@@ -1,0 +1,16 @@
+{
+  "enlacesEstatales": [
+    {
+      "id": 0,
+      "titulo": "Enaces Estatales",
+      "descripcion": null,
+      "url": "/work/models/PTP/Capacitacion/Resources/files/enlaces_estatales_recursos_federales_transferidos.xlsx",
+      "tipo": "xlsx"
+    }
+  ],
+  "telefonos":[
+    "3688-5016 (opción 3)",
+    "01-800-02-20-819"
+  ],
+  "email":["formato_unico@hacienda.gob.mx"]
+}

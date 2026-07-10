@@ -1,0 +1,499 @@
+{
+  "colorActivo": "#06a5c1",
+  "colorEncabezado": "#06a5c1",
+  "textoCard": "#021f59",
+  "fondoCard": "#f5f5f5",
+  "fondoSeccion": "#ffffff",
+  "textoSeccion": "#021f59",
+  "tabs": [
+    {
+      "id": 0,
+      "titulo": "Destino del gasto",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=iBST47S78nY",
+          "titulo": "1. Nuevo proyecto individual - Módulo Destino del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/1.%20Nuevo%20proyecto%20individual%20-%20Modulo%20Destino%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=8POF_yXq0OQ",
+          "titulo": "2. Registro Nuevo Masivo - Módulo Destino del Gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/2.%20Registro%20Nuevo%20Masivo%20-%20Modulo%20Destino%20del%20Gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HjSgYESZ5M0",
+          "titulo": "3. ¿Cómo registrar un contrato? - Módulo Destino del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/3.%20Como%20registrar%20un%20contrato%20-%20Modulo%20Destino%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mioYgYFIiBI",
+          "titulo": "4.  Registro de avance individual - Módulo Destino del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/4.%20Registro%20de%20avance%20individual%20-%20Modulo%20Destino%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zWu2ntfdYvc",
+          "titulo": "5. ¿Cómo puedo avanzar un proyecto ya registrado de modo masivo? - Módulo Destino del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/5.%20Como%20puedo%20avanzar%20un%20proyecto%20ya%20registrado%20de%20modo%20masivo%20-%20Modulo%20Destino%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mmd0vqOTliM",
+          "titulo": "6. ¿Cómo puedo atender observaciones? - Módulo Destino del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/6.%20Como%20puedo%20atender%20observaciones%20-%20Modulo%20Destino%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XDN8Fe8j7r8",
+          "titulo": "7. ¿Como completar el registro de un proyecto en otro momento? - Módulo Destino del Gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/7.%20Como%20completar%20el%20registro%20de%20un%20proyecto%20en%20otro%20momento%20-%20Modulo%20Destino%20del%20Gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1FJq3VlDM6E",
+          "titulo": "8. ¿Cómo puedo realizar una extracción o un reporte? - Módulo Destino del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/8.%20Como%20puedo%20realizar%20una%20extraccion%20o%20un%20reporte%20-%20Modulo%20Destino%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kkvvjCOMFZs",
+          "titulo": "9. Funciones del usuario revisor - Módulo Destino del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/9.%20Funciones%20del%20usuario%20revisor%20-%20Modulo%20Destino%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4LyXE1_bB54",
+          "titulo": "10. Reactivar un proyecto suspendido",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/10.%20Reactivar%20un%20proyecto%20suspendido.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lyT56TKKwG0",
+          "titulo": "Compranet",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/Compranet%20-%20EXTRA.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=t5xv4lBr9vk",
+          "titulo": "Mapas",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/Mapas%20-%20EXTRA.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RYwi-Kzus_A",
+          "titulo": "Agrupar información en una sola celda para las cargas masivas",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/Agrupar%20informacion%20en%20una%20sola%20celda%20para%20las%20cargas%20masivas%20-%20EXTRA.zip",
+              "tipo": "zip"
+            }
+          ]
+        }
+      ],
+      "guias": [
+        {
+          "id": 0,
+          "titulo": "Capturista",
+          "descripcion": "Guía para el usuario capturista del módulo de gasto",
+          "url": "/work/models/PTP/Capacitacion/Resources/files/guia_capturista_destino.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": 1,
+          "titulo": "Revisor",
+          "descripcion": "Guía para el usuario revisor del módulo de Destino del Gasto",
+          "url": "/work/models/PTP/Capacitacion/Resources/files/guia_revisor_destino.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "webinars": [
+        {
+          "url": "https://www.youtube.com/watch?v=cso1BYoX9ys",
+          "titulo": "Webinar dudas frecuentes, Destino del Gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/Webinar%20RFT%20Destino%20del%20Gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "titulo": "Ejercicio del gasto",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=TaR1UPF5UvA",
+          "titulo": "1. Analítico de Avance ¿Cómo puedo consultar los programas que deben reportarse? Ejercicio del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/1.%20Analitico%20de%20Avance%20Como%20puedo%20consultar%20los%20programas%20que%20deben%20reportarse%20Ejercicio%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=UBYJgZB9ou4",
+          "titulo": "2. Calendario de ministración - Módulo Ejercicio del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/2.%20Calendario%20de%20ministracion%20-%20Modulo%20Ejercicio%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jl4aZGq-WxI",
+          "titulo": "3. Carga individual - Módulo Ejercicio del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/3.%20Carga%20individual%20-%20Modulo%20Ejercicio%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mSpo8XQKnNE",
+          "titulo": "4.  Carga masiva - Módulo Ejercicio del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/4.%20Carga%20masiva%20-%20Modulo%20Ejercicio%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ikxSkM6EbFg",
+          "titulo": "5. ¿Cómo puedo atender observaciones? - Módulo Ejercicio del Gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/5.%20Como%20puedo%20atender%20observaciones%20-%20Modulo%20Ejercicio%20del%20Gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fFbQHskYrGI",
+          "titulo": "6.  ¿Cómo puedo realizar una extracción o un reporte de extracción? - Módulo Ejercicio del gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/6.%20Como%20puedo%20realizar%20una%20extraccion%20o%20un%20reporte%20de%20extraccion%20-%20Modulo%20Ejercicio%20del%20gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=k5ZNs0uN9Gc",
+          "titulo": "7. Funciones del usuario Revisor - Módulo Ejercicio del Gasto",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/7.%20Funciones%20del%20usuario%20Revisor%20-%20Modulo%20Ejercicio%20del%20Gasto.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9DNtLv6tMQ8",
+          "titulo": "8. Carga individual utilizando el catálogo de instituciones ejecutoras",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/8.%20Carga%20individual%20utilizando%20el%20catalogo%20de%20instituciones%20ejecutoras.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LWbHGj5oNKY",
+          "titulo": "9. Carga masiva utilizando el catálogo de instituciones ejecutoras",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/9.%20Carga%20masiva%20utilizando%20el%20catalogo%20de%20instituciones%20ejecutoras.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9oob179ig18",
+          "titulo": "10. Alta individual de instituciones ejecutoras para revisores",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/10.%20Alta%20individual%20de%20instituciones%20ejecutoras%20para%20revisores.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6t3_dctmE5M",
+          "titulo": "11. Alta masiva de instituciones ejecutoras para revisores",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/11.%20Alta%20masiva%20de%20instituciones%20ejecutoras%20para%20revisores.zip",
+              "tipo": "zip"
+            }
+          ]
+        }
+      ],
+      "guias": [
+        {
+          "id": 0,
+          "titulo": "Capturista",
+          "descripcion": "Guía para el usuario capturista del módulo de Ejercicio del Gasto",
+          "url": "/work/models/PTP/Capacitacion/Resources/files/guia_capturista_ejercicio.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": 1,
+          "titulo": "Revisor",
+          "descripcion": "Guía para el usuario revisor del módulo de Ejercicio del Gasto",
+          "url": "/work/models/PTP/Capacitacion/Resources/files/guia_revisor_ejercicio.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Indicadores",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=ggN_AjIMvyA",
+          "titulo": "1. Registro de avance de indicadores - Módulo Indicadores",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/1.%20Registro%20de%20avance%20de%20indicadores%20-%20Modulo%20Indicadores.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4anWDxk_CgM",
+          "titulo": "2. Funciones del usuario revisor de Indicadores - Módulo de Indicadores",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/2.%20Funciones%20del%20usuario%20revisor%20de%20Indicadores%20-%20Modulo%20de%20Indicadores.zip",
+              "tipo": "zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=61QIDH02bmA",
+          "titulo": "3.  Carga masiva de observaciones -  Módulo de Indicadores",
+          "botones": [
+            {
+              "descripcion": "Descarga el video",
+              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/3.%20Carga%20masiva%20de%20observaciones%20-%20Modulo%20de%20Indicadores.zip",
+              "tipo": "zip"
+            }
+          ]
+        }
+      ],
+      "guias": [
+        {
+          "id": 0,
+          "titulo": "Capturista",
+          "descripcion": "Guía para el usuario capturista del módulo de Indicadores",
+          "url": "/work/models/PTP/Capacitacion/Resources/files/guia_capturista_indicadores.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": 1,
+          "titulo": "Revisor",
+          "descripcion": "Guía para el usuario revisor del módulo de Indicadores",
+          "url": "/work/models/PTP/Capacitacion/Resources/files/guia_revisor_indicadores.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "matices": [
+        {
+          "id": 0,
+          "titulo": "I-002 - FASSA",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-002 - FASSA.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 1,
+          "titulo": "I-003 - FAIS Entidades",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-003 - FAIS Entidades.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 2,
+          "titulo": "I-004 - FAIS Municipal y de las DTCDMX",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-004 - FAIS Municipal y de las DTCDMX.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 3,
+          "titulo": "I-005 - FORTAMUN",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-005 - FORTAMUN.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 4,
+          "titulo": "I-006 - FAM Asistencia Social",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-006 - FAM Asistencia Social.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 5,
+          "titulo": "I-007 - FAM Infraestructura Educativa Básica",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-007 - FAM Infraestructura Educativa Básica.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 6,
+          "titulo": "I-008 - FAM IEMS IES",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-008 - FAM IEMS IES.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 7,
+          "titulo": "I-009 - FAETA Educación Tecnológica",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-009 - FAETA Educación Tecnológica.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 8,
+          "titulo": "I-010 - FAETA Educación de Adultos",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-010 - FAETA Educación de Adultos.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 9,
+          "titulo": "I-011 - FASP",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-011 - FASP.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 10,
+          "titulo": "I-012 - FAFEF",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-012 - FAFEF.zip",
+          "tipo": "zip"
+        },
+        {
+          "id": 11,
+          "titulo": "I-013 - FONE Servicios Personales",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/I-013 - FONE Servicios Personales.zip",
+          "tipo": "zip"
+        },
+        {
+          "id":12,
+          "titulo":"Directorio de los coordinadores de Fondos y de la Administración Pública Federal",
+          "descripcion":null,
+          "url":"/work/models/PTP/Capacitacion/Resources/files/enlaces_apf_recursos_federales_transferidos.xlsx",
+          "tipo":"xlsx"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Evaluaciones",
+      "guias": [
+        {
+          "id": 0,
+          "titulo": "Sistema de Formato Único",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/guia_evaluaciones.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": 1,
+          "titulo": "Manual de operación",
+          "descripcion": "Manual de Operación del Módulo de Evaluación del Sistema de Formato Único",
+          "url": "/work/models/PTP/Capacitacion/Resources/files/guia_evaluaciones.pdf",
+          "tipo": "pdf"
+        }
+      ]
+    }
+  ]
+}

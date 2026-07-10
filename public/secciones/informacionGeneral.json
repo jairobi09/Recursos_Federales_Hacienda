@@ -1,0 +1,71 @@
+{
+  "presentacion": 
+    {
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=vrqF5atiajY",
+          "titulo":null,
+          "botones":[
+            {
+                "descripcion":"Descarga la presentación",
+                "url":"work/models/PTP/Capacitacion/Resources/files/arranque_sistema_rft.pdf",
+                "tipo":"pdf"
+            },
+             {
+                "descripcion":"Descarga el video",
+                "url":"work/models/PTP/Capacitacion/Resources/files/zip_aspectos_generales/Presentacion%20del%20Sistema%20de%20Recursos%20Federales%20Transferidos.zip",
+                "tipo":"zip"
+            }
+          ]
+        }
+      ],
+      "guias":[
+        {
+            "id":0,
+            "titulo":"Guía de conceptos y criterios RFT",
+            "descripcion":"Guía de conceptos y criterios para el reporte del ejercicio, destino y resultados de los Recursos Federales Transferidos",
+            "url":"work/models/PTP/Capacitacion/Resources/files/guia_criterios.pdf",
+            "tipo":"pdf"
+        },
+        {
+            "id":1,
+            "titulo":"Conoce las diferiencias entre el nuevo sistema RFT y el SFU",
+            "descripcion":null,
+            "url":"work/models/PTP/Capacitacion/Resources/files/Diferencias%20RFT%20vs%20SFU%20PTP.pdf",
+            "tipo":"pdf"
+        }
+      ]
+    },
+  "recursos":{
+     "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=qBG5uSR6b7o",
+          "titulo":"Ingreso al Sistema RFT",
+          "botones":[
+             {
+                "descripcion":"Descarga el video",
+                "url":"work/models/PTP/Capacitacion/Resources/files/zip_aspectos_generales/Ingreso%20al%20Sistema%20RFT.zip",
+                "tipo":"zip"
+            }
+          ]
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nzhf5D-1Yc4",
+          "titulo":"Solicitud de Usuarios en el RFT",
+          "botones":[
+             {
+                "descripcion":"Descarga el video",
+                "url":"work/models/PTP/Capacitacion/Resources/files/zip_aspectos_generales/Solicitud_de_Usuario_en_el_RFT.zip",
+                "tipo":"zip"
+            },
+            {
+                "descripcion":"Formato de solicitud de movimientos a usuarios",
+                "url":"work/models/PTP/Capacitacion/Resources/files/Formato_de_solicitud_de_movimiento_a_usuarios.xlsm",
+                "tipo":"xlsx"
+            }
+          ]
+        }
+      ]
+  }
+  
+}
