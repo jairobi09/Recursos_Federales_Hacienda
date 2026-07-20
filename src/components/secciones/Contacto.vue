@@ -18,7 +18,7 @@ function unirConComasYO(items: string[]): string {
 </script>
 <template>
     <main class="flex flex-col w-full items-center">
-        <h2 class="text-[#ec7537] text-center pt-12 mb-12">Contácto</h2>
+        <h2 class="text-[#ec7537] text-center pt-12 mb-12">Contacto</h2>
         <div class="mb-12" v-if="contacto?.enlacesEstatales">
             <CardGuia v-for="enlace in contacto.enlacesEstatales" :key="enlace.id" :guia="enlace" />
         </div>
