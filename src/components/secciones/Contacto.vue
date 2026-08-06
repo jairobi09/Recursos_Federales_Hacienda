@@ -32,6 +32,7 @@ function unirConComasYO(items: string[]): string {
         v-for="enlace in contacto.enlacesEstatales"
         :key="enlace.id"
         :guia="enlace"
+        class="col-span-3 lg:col-span-1"
       />
     </div>
     <div v-if="contacto" class="mb-12 w-full px-0 lg:px-12">
