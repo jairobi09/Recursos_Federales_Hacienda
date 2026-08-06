@@ -119,13 +119,13 @@ onUnmounted(() => {
         :style="{ transform: `translateX(${position}px)` }"
       >
         <div v-for="(item, index) in items" :key="index" class="flex items-center shrink-0">
-          <img :src="getImageUrl(item.img)" class="w-12 md:w-20" alt="icon" loading="lazy" />
+          <img :src="getImageUrl(item.img)" class="w-12 md:w-20 imagen-sn" alt="icon" loading="lazy" />
           <a
             :href="item.link"
             target="_blank"
-            class="px-[22px] py-[10px] bg-white rounded-full text-[16px] Noto-Sans font-medium text-black border-none whitespace-normal text-center leading-tight transition-all duration-200 hover:shadow-[3px_3px_0px_0px_rgb(173_131_31_/_1.0)] hover:-translate-y-1 active:translate-x-0 active:translate-y-0"
+            class="px-[22px] py-[10px] bg-white rounded-full text-[16px] Noto-Sans font-medium text-black border-none whitespace-normal text-center leading-tight transition-all duration-200 hover:shadow-[3px_3px_0px_0px_#ec7537] hover:-translate-y-1 active:translate-x-0 active:translate-y-0"
             style="
-              border: 1px solid rgb(173, 131, 1);
+              border: 1px solid #ec7537;
               border-radius: 15px;
               width: 26rem;
               height: 100%; /* font-family: 'NotoSans'; */
@@ -150,9 +150,12 @@ onUnmounted(() => {
 </template>
 <style scoped>
 .subtitulo {
-  color: rgb(173, 131, 31);
+  color: #ec7537;
   font-family: 'Patria Bold';
   font-size: 29px;
   margin: 1rem 0;
+}
+.imagen-sn {
+  filter: sepia(1) saturate(4) hue-rotate(330deg) brightness(1.05);
 }
 </style>

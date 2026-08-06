@@ -6,6 +6,20 @@
       "descripcion": null,
       "url": "/work/models/PTP/Capacitacion/Resources/files/enlaces_estatales_recursos_federales_transferidos.xlsx",
       "tipo": "xlsx"
+    },
+    {
+      "id": 0,
+      "titulo": "Enlaces APF",
+      "descripcion": null,
+      "url": "/work/models/PTP/Capacitacion/Resources/files/enlaces_apf_recursos_federales_transferidos.xlsx ",
+      "tipo": "xlsx"
+    },
+    {
+      "id": 0,
+      "titulo": "Usuarios observadores",
+      "descripcion": null,
+      "url": "/work/models/PTP/NPTP/Descargables/Observadores_SRFT.zip",
+      "tipo": "zip"
     }
   ],
   "telefonos":[

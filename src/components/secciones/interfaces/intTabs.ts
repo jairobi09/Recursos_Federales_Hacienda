@@ -13,6 +13,7 @@ export interface IntCapacitacion {
 export interface IntTab {
   id: number;
   titulo: string;
+  descripcion:string;
   videos: IntVideo[];
   webinars:IntVideo[];
   guias?: IntRecurso[];

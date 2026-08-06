@@ -8,7 +8,8 @@
   "tabs": [
     {
       "id": 0,
-      "titulo": "Destino del gasto",
+      "titulo": "Destino del Gasto",
+      "descripcion": "En esta sección encontrarás materiales de apoyo para el reporte del destino de los recursos federales transferidos en el SRFT. En particular, respecto de la identificación de los proyectos, obras y acciones en los que dichos recursos fueron aplicados, y el reporte de sus avances físicos y financieros, así como para la revisión y emisión de observaciones de la información reportada.<br/><br/>Los videos tutoriales de esta sección muestran, paso a paso, cómo capturar los proyectos y actualizar la información requerida, de conformidad con la normativa aplicable.",
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=iBST47S78nY",
@@ -158,7 +159,7 @@
         {
           "id": 0,
           "titulo": "Capturista",
-          "descripcion": "Guía para el usuario capturista del módulo de gasto",
+          "descripcion": "Guía para el usuario capturista del módulo de Destino del Gasto",
           "url": "/work/models/PTP/Capacitacion/Resources/files/guia_capturista_destino.pdf",
           "tipo": "pdf"
         },
@@ -186,7 +187,8 @@
     },
     {
       "id": 1,
-      "titulo": "Ejercicio del gasto",
+      "titulo": "Ejercicio del Gasto",
+      "descripcion": "En esta sección encontrarás materiales de apoyo para el reporte del ejercicio de los recursos federales transferidos en el SRFT. En particular, respecto de la captura del avance del ejercicio del gasto a nivel de programa presupuestario y partida genérica para cada uno de los momentos contables del ingreso y del egreso que apliquen (aprobado, modificado, comprometido, recaudado, etc.), así como para la revisión y emisión de observaciones de la información reportada.<br/><br/>Los video tutoriales de esta sección muestran, paso a paso, cómo capturar el avance del gasto de los recursos federales transferidos, de conformidad con la normativa aplicable.",
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=TaR1UPF5UvA",
@@ -330,6 +332,7 @@
     {
       "id": 2,
       "titulo": "Indicadores",
+      "descripcion":"En esta sección encontrarás materiales de apoyo para el reporte de las metas y avances de los indicadores del desempeño del ámbito estatal y municipal de los Fondos de Aportaciones Federales, según corresponda.<br/><br/>Los video tutoriales de esta sección muestran, paso a paso, cómo capturar las metas y los avances en el cumplimiento de los indicadores, así como cómo revisar la información reportada y emitir las observaciones correspondientes.",
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=ggN_AjIMvyA",
@@ -467,17 +470,18 @@
           "tipo": "zip"
         },
         {
-          "id":12,
-          "titulo":"Directorio de los coordinadores de Fondos y de la Administración Pública Federal",
-          "descripcion":null,
-          "url":"/work/models/PTP/Capacitacion/Resources/files/enlaces_apf_recursos_federales_transferidos.xlsx",
-          "tipo":"xlsx"
+          "id": 12,
+          "titulo": "Directorio de los coordinadores de Fondos y de la Administración Pública Federal",
+          "descripcion": null,
+          "url": "/work/models/PTP/Capacitacion/Resources/files/enlaces_apf_recursos_federales_transferidos.xlsx",
+          "tipo": "xlsx"
         }
       ]
     },
     {
       "id": 3,
       "titulo": "Evaluaciones",
+      "descripcion":"Esta sección se encuentra en proceso de migración al SRFT. Mientras concluye este proceso, la información correspondiente deberá reportarse a través del Sistema de Formato Único (SFU).",
       "guias": [
         {
           "id": 0,

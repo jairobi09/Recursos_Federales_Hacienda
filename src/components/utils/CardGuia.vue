@@ -10,8 +10,8 @@ const props = defineProps<IntProps>();
 <template>
     <div class="rounded-3xl card-guia shadow-xl border border-[#e2e8f0] hover:border-[#04878c]">
 
-        <h4 class="flex-1 text-[#04878c]" v-if="guia.titulo" v-html="guia.titulo"></h4>
-        <p v-if="guia.descripcion" v-html="guia.descripcion"></p>
+        <h4 class=" text-[#04878c]" v-if="guia.titulo" v-html="guia.titulo"></h4>
+        <p v-if="guia.descripcion" v-html="guia.descripcion" class="flex-1"></p>
         <div class="flex flex-wrap items-center justify-end gap-4">
             <BotonDescarga :boton="{
                 url:guia.url,

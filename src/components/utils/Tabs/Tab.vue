@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted, ref } from 'vue'
-import Acordion from './Acordion.vue'
 import { IntTab } from '../../secciones/interfaces/intTabs.ts';
 import CardVideoYT from '../CardVideoYT.vue';
 import CardGuia from '../CardGuia.vue';
@@ -9,28 +7,13 @@ const props = defineProps<{
   tab: IntTab
 }>()
 
-const expandido = ref<number | null>(null);
-const handleExpandir = (expandir: number): void => {
 
-  if (expandido.value === expandir) {
-    expandido.value = null;
-  }
-  else {
-    expandido.value = expandir;
-  }
-  console.log(expandido.value);
 
-}
-onMounted(() => {
-  expandido.value = null;
-})
-onUnmounted(() => {
-  expandido.value = null;
-})
 </script>
 <template>
   <section class="tabs-contenedor">
-    <h3 class="text-center text-[#04878c] mb-12" v-html="tab.titulo"></h3>
+    <h3 class="text-center text-[#04878c] " v-html="tab.titulo"></h3>
+    <p class="mb-12 text-justify" v-html="tab.descripcion"></p>
     <div v-if="tab.videos" class="grid grid-cols-3 gap-4 mb-12">
       <div  class="col-span-full lg:col-span-1" v-for="video in tab?.videos" :key="video.url">
         <CardVideoYT :video="video" />
