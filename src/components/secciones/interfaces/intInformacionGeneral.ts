@@ -9,8 +9,9 @@ export interface IntSeccion {
 }
 
 export interface IntVideo {
-  url: string;
+  url?: string;
   titulo?: string | null;
+  descripcion?:string;
   botones?: IntBoton[];
 }
 

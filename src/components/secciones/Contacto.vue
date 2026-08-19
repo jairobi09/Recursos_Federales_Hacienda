@@ -19,21 +19,16 @@ function unirConComasYO(items: string[]): string {
 <template>
   <main class="flex flex-col w-full items-center">
     <h2 class="text-[#ec7537] text-center pt-12 mb-6">Contacto</h2>
-    <p class="mb-12">
-      En esta sección podrás consultar el directorio de las personas enlace de
-      las instancias coordinadoras de los Fondos de Aportaciones Federales y de
-      las responsables de los programas presupuestarios en la Administración
-      Pública Federal, así como de las Secretarías de Finanzas o sus homólogas
-      en las entidades federativas. Asimismo, encontrarás el listado de usuarios
-      observadores vigentes.
+    <p class="mb-4 w-full">
+      En esta sección podrás consultar el directorio de las personas enlaces de las instancias coordinadoras de los
+      Fondos de Aportaciones Federales y de las responsables de los programas presupuestarios de la Administración
+      Pública Federal, así como el listado vigente de personas usuarias observadoras.
     </p>
+    <p class="mb-12 w-full">Asimismo, encontrarás el directorio de las Secretarías de Finanzas, o sus homólogas, de las
+      entidades federativas. </p>
     <div class="mb-12 grid grid-cols-3 gap-4 w-full" v-if="contacto?.enlacesEstatales">
-      <CardGuia
-        v-for="enlace in contacto.enlacesEstatales"
-        :key="enlace.id"
-        :guia="enlace"
-        class="col-span-3 lg:col-span-1"
-      />
+      <CardGuia v-for="enlace in contacto.enlacesEstatales" :key="enlace.id" :guia="enlace"
+        class="col-span-3 lg:col-span-1" />
     </div>
     <div v-if="contacto" class="mb-12 w-full px-0 lg:px-12">
       <p class="text-center w-full">

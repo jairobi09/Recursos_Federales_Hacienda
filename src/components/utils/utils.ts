@@ -1,8 +1,6 @@
 export async function fetchPublicJson<T>(path: string): Promise<T | null> {
-  // @ts-ignore
-  const base = import.meta.env.BASE_URL
 
-  const url = `${base.replace(/\/$/, '')}/${path.replace(/^\//, '')}`
+  const url = `${basePath.replace(/\/$/, '')}/${path.replace(/^\//, '')}`
 
   try {
     const res = await fetch(url)
@@ -19,4 +17,6 @@ export async function fetchPublicJson<T>(path: string): Promise<T | null> {
     console.warn(`Error de red al cargar JSON: ${url}`, err)
     return null
   }
-}
+}  
+// @ts-ignore
+export const basePath = import.meta.env.BASE_URL

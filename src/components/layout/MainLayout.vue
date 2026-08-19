@@ -3,6 +3,7 @@ import Footer from './footer/Footer.vue';
 import NavPlantilla from './navbar/NavPlantilla.vue';
 import SustentoNormativo from './sustentoNormativo/SustentoNormativo.vue';
 import Encabezado from "../secciones/Encabezado.vue";
+import VolverArriba from '../utils/VolverArriba.vue';
 
 </script>
 <template>
@@ -14,6 +15,7 @@ import Encabezado from "../secciones/Encabezado.vue";
             <slot/>
         </main>
         <SustentoNormativo/>
+        <VolverArriba/>
         <Footer/>
     </section>
 

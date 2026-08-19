@@ -9,14 +9,14 @@
     },
     {
       "id": 0,
-      "titulo": "Enlaces APF",
+      "titulo": "Personas enlaces de la Administración Pública Federal",
       "descripcion": null,
       "url": "/work/models/PTP/Capacitacion/Resources/files/enlaces_apf_recursos_federales_transferidos.xlsx ",
       "tipo": "xlsx"
     },
     {
       "id": 0,
-      "titulo": "Usuarios observadores",
+      "titulo": "Personas usuarias con rol de Observaciones (Observadores SRFT)",
       "descripcion": null,
       "url": "/work/models/PTP/NPTP/Descargables/Observadores_SRFT.zip",
       "tipo": "zip"

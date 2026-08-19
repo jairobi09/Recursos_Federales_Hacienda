@@ -24,14 +24,7 @@
             "id":0,
             "titulo":"Guía de conceptos y criterios RFT",
             "descripcion":"Guía de conceptos y criterios para el reporte del ejercicio, destino y resultados de los Recursos Federales Transferidos",
-            "url":"work/models/PTP/Capacitacion/Resources/files/guia_criterios.pdf",
-            "tipo":"pdf"
-        },
-        {
-            "id":1,
-            "titulo":"Conoce las diferiencias entre el nuevo sistema RFT y el SFU",
-            "descripcion":null,
-            "url":"work/models/PTP/Capacitacion/Resources/files/Diferencias%20RFT%20vs%20SFU%20PTP.pdf",
+            "url":"https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/Capacitacion/Resources/files/guia_criterios.pdf",
             "tipo":"pdf"
         }
       ]
@@ -43,9 +36,9 @@
           "titulo":"Ingreso al Sistema RFT",
           "botones":[
              {
-                "descripcion":"Descarga el video",
-                "url":"work/models/PTP/Capacitacion/Resources/files/zip_aspectos_generales/Ingreso%20al%20Sistema%20RFT.zip",
-                "tipo":"zip"
+                "descripcion":"Consulta",
+                "url":"https://www.mstwls.hacienda.gob.mx/oam-cp/security/authLogin.do?contextType=external&username=string&OverrideRetryLimit=0&password=sercure_string&challenge_url=https%3A%2F%2Fwww.mstwls.hacienda.gob.mx%2Foam-cp%2Fsecurity%2FauthLogin.do&request_id=-471546539732574882&authn_try_count=0&locale=es_ES&resource_url=https%253A%252F%252Fwww.mst.hacienda.gob.mx%252Fshcp-home",
+                "tipo":"url"
             }
           ]
         },
@@ -60,8 +53,13 @@
             },
             {
                 "descripcion":"Formato de solicitud de movimientos a usuarios",
-                "url":"work/models/PTP/Capacitacion/Resources/files/Formato_de_solicitud_de_movimiento_a_usuarios.xlsm",
-                "tipo":"xlsx"
+                "url":"https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/NPTP/Descargables/USUARIOS_SRFT.zip",
+                "tipo":"zip"
+            },
+            {
+                "descripcion":"Formato relación usuarios",
+                "url":"https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/NPTP/Descargables/Formato_de_relacion_de_usuarios_SFU.zip",
+                "tipo":"zip"
             }
           ]
         }

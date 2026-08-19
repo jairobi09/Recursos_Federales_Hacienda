@@ -1,19 +1,16 @@
 {
-  "colorActivo": "#06a5c1",
-  "colorEncabezado": "#06a5c1",
-  "textoCard": "#021f59",
-  "fondoCard": "#f5f5f5",
-  "fondoSeccion": "#ffffff",
-  "textoSeccion": "#021f59",
   "tabs": [
     {
       "id": 0,
       "titulo": "Destino del Gasto",
-      "descripcion": "En esta sección encontrarás materiales de apoyo para el reporte del destino de los recursos federales transferidos en el SRFT. En particular, respecto de la identificación de los proyectos, obras y acciones en los que dichos recursos fueron aplicados, y el reporte de sus avances físicos y financieros, así como para la revisión y emisión de observaciones de la información reportada.<br/><br/>Los videos tutoriales de esta sección muestran, paso a paso, cómo capturar los proyectos y actualizar la información requerida, de conformidad con la normativa aplicable.",
+      "colorActivo": "#2fbfbe",
+      "icono": "geoAlt",
+      "descripcion": "En este módulo encontrarás materiales de apoyo para el reporte del destino de los recursos federales transferidos en el SRFT. En particular, respecto de la identificación de los proyectos, obras y acciones en los que dichos recursos fueron aplicados, y el reporte de sus avances físicos y financieros, así como para la revisión y emisión de observaciones de la información reportada.<br/><br/>Los videos tutoriales de esta sección muestran, paso a paso, cómo capturar los proyectos y actualizar la información requerida, de conformidad con la normativa aplicable.",
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=iBST47S78nY",
           "titulo": "1. Nuevo proyecto individual - Módulo Destino del gasto",
+          "descripcion": "Se explica paso a paso cómo registrar un nuevo proyecto de manera individual en el SRFT, desde la captura de las fuentes de financiamiento y datos del proyecto hasta sus avances, contratos, fotografías y solicitud de validación.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -25,6 +22,7 @@
         {
           "url": "https://www.youtube.com/watch?v=8POF_yXq0OQ",
           "titulo": "2. Registro Nuevo Masivo - Módulo Destino del Gasto",
+          "descripcion": "Se explica paso a paso cómo registrar dos o más proyectos de manera simultánea en el SRFT.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -36,6 +34,7 @@
         {
           "url": "https://www.youtube.com/watch?v=HjSgYESZ5M0",
           "titulo": "3. ¿Cómo registrar un contrato? - Módulo Destino del gasto",
+          "descripcion": "Se explica cómo registrar contratos y obras por adjudicación directa, indicando qué datos y documentos deben capturarse.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -47,6 +46,7 @@
         {
           "url": "https://www.youtube.com/watch?v=mioYgYFIiBI",
           "titulo": "4.  Registro de avance individual - Módulo Destino del gasto",
+          "descripcion": "Se muestra paso a paso cómo consultar un proyecto y registrar sus avances físicos y financieros, así como actualizar la información permitida y enviar el registro a validación.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -58,6 +58,7 @@
         {
           "url": "https://www.youtube.com/watch?v=zWu2ntfdYvc",
           "titulo": "5. ¿Cómo puedo avanzar un proyecto ya registrado de modo masivo? - Módulo Destino del gasto",
+          "descripcion": "Se muestra como actualizar masivamente los avances de proyectos ya registrados mediante una plantilla .csv, incluyendo datos financieros, metas, avances físicos y fotografías.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -69,6 +70,7 @@
         {
           "url": "https://www.youtube.com/watch?v=mmd0vqOTliM",
           "titulo": "6. ¿Cómo puedo atender observaciones? - Módulo Destino del gasto",
+          "descripcion": "Se muestra cómo revisar y atender las observaciones hechas por el revisor a los proyectos, así como corregir la información y solicitar nuevamente su validación hasta que las observaciones queden atendidas.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -80,6 +82,7 @@
         {
           "url": "https://www.youtube.com/watch?v=XDN8Fe8j7r8",
           "titulo": "7. ¿Como completar el registro de un proyecto en otro momento? - Módulo Destino del Gasto",
+          "descripcion": "Se muestra cómo guardar un proyecto incompleto para continuar su registro posteriormente, así como localizarlo, completar la información faltante y solicitar su validación antes del cierre del trimestre.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -91,6 +94,7 @@
         {
           "url": "https://www.youtube.com/watch?v=1FJq3VlDM6E",
           "titulo": "8. ¿Cómo puedo realizar una extracción o un reporte? - Módulo Destino del gasto",
+          "descripcion": "Se muestra cómo realizar extracciones de información y reportes de proyectos, aplicando diferentes filtros, tipos de reporte y formatos de descarga.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -102,6 +106,7 @@
         {
           "url": "https://www.youtube.com/watch?v=kkvvjCOMFZs",
           "titulo": "9. Funciones del usuario revisor - Módulo Destino del gasto",
+          "descripcion": "Se explica el proceso de revisión, validación, seguimiento y emisión de observaciones de proyectos dentro del SRFT por parte del usuario revisor.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -113,6 +118,7 @@
         {
           "url": "https://www.youtube.com/watch?v=4LyXE1_bB54",
           "titulo": "10. Reactivar un proyecto suspendido",
+          "descripcion": "Se explica el procedimiento para reactivar proyectos suspendidos, desde la descarga y modificación del archivo con la justificación correspondiente hasta su carga en el sistema para cambiar su estatus a ejecución.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -122,19 +128,9 @@
           ]
         },
         {
-          "url": "https://www.youtube.com/watch?v=lyT56TKKwG0",
-          "titulo": "Compranet",
-          "botones": [
-            {
-              "descripcion": "Descarga el video",
-              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/Compranet%20-%20EXTRA.zip",
-              "tipo": "zip"
-            }
-          ]
-        },
-        {
           "url": "https://www.youtube.com/watch?v=t5xv4lBr9vk",
           "titulo": "Mapas",
+          "descripcion": "Se explica cómo encontrar la latitud y longitud de un proyecto utilizando Google Maps para poder registrar correctamente su ubicación en el sistema.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -146,6 +142,7 @@
         {
           "url": "https://www.youtube.com/watch?v=RYwi-Kzus_A",
           "titulo": "Agrupar información en una sola celda para las cargas masivas",
+          "descripcion": "Se explica cómo estructurar y registrar correctamente en una sola celda varios conceptos del registro de avances masivo, como fuentes de financiamiento, metas, georreferencias y avances físicos, utilizando llaves, comas y consecutivos.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -170,29 +167,19 @@
           "url": "/work/models/PTP/Capacitacion/Resources/files/guia_revisor_destino.pdf",
           "tipo": "pdf"
         }
-      ],
-      "webinars": [
-        {
-          "url": "https://www.youtube.com/watch?v=cso1BYoX9ys",
-          "titulo": "Webinar dudas frecuentes, Destino del Gasto",
-          "botones": [
-            {
-              "descripcion": "Descarga el video",
-              "url": "/work/models/PTP/Capacitacion/Resources/files/zip_destino/Webinar%20RFT%20Destino%20del%20Gasto.zip",
-              "tipo": "zip"
-            }
-          ]
-        }
       ]
     },
     {
       "id": 1,
       "titulo": "Ejercicio del Gasto",
-      "descripcion": "En esta sección encontrarás materiales de apoyo para el reporte del ejercicio de los recursos federales transferidos en el SRFT. En particular, respecto de la captura del avance del ejercicio del gasto a nivel de programa presupuestario y partida genérica para cada uno de los momentos contables del ingreso y del egreso que apliquen (aprobado, modificado, comprometido, recaudado, etc.), así como para la revisión y emisión de observaciones de la información reportada.<br/><br/>Los video tutoriales de esta sección muestran, paso a paso, cómo capturar el avance del gasto de los recursos federales transferidos, de conformidad con la normativa aplicable.",
+      "colorActivo": "#2ba64f",
+      "icono": "calculatorFill",
+      "descripcion": "En este módulo encontrarás materiales de apoyo para el reporte del ejercicio de los recursos federales transferidos en el SRFT. En particular, respecto de la captura del avance del ejercicio del gasto a nivel de programa presupuestario y partida genérica para cada uno de los momentos contables del ingreso y del egreso que apliquen (aprobado, modificado, comprometido, recaudado, etc.), así como para la revisión y emisión de observaciones de la información reportada.<br/><br/>Los video tutoriales de esta sección muestran, paso a paso, cómo capturar el avance del gasto de los recursos federales transferidos, de conformidad con la normativa aplicable.",
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=TaR1UPF5UvA",
           "titulo": "1. Analítico de Avance ¿Cómo puedo consultar los programas que deben reportarse? Ejercicio del gasto",
+          "descripcion": "Se explica cómo consultar y filtrar los programas presupuestarios en el analítico de avance, así como revisar los recursos transferidos, montos recaudados, porcentajes de avance y su semaforización para monitorear la calidad de la información reportada.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -204,6 +191,7 @@
         {
           "url": "https://www.youtube.com/watch?v=UBYJgZB9ou4",
           "titulo": "2. Calendario de ministración - Módulo Ejercicio del gasto",
+          "descripcion": "Se explica el procedimiento para registrar y cargar las transferencias de recursos a municipios mediante una plantilla .csv, incluyendo el llenado de datos, validación y consulta de la información en el analítico de avance.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -215,6 +203,7 @@
         {
           "url": "https://www.youtube.com/watch?v=jl4aZGq-WxI",
           "titulo": "3. Carga individual - Módulo Ejercicio del gasto",
+          "descripcion": "Se explica cómo registrar de forma individual el ejercicio del gasto de los programas presupuestarios y por partidas genéricas, incluyendo la captura, guardado y envío de la información en el sistema.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -226,6 +215,7 @@
         {
           "url": "https://www.youtube.com/watch?v=mSpo8XQKnNE",
           "titulo": "4.  Carga masiva - Módulo Ejercicio del gasto",
+          "descripcion": "Se explica cómo registrar de forma masiva el ejercicio del gasto mediante un archivo .csv, incluyendo la captura de programas presupuestarios, partidas, montos, contratos y proyectos, así como la carga y solicitud de validación de la información en el sistema.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -237,6 +227,7 @@
         {
           "url": "https://www.youtube.com/watch?v=ikxSkM6EbFg",
           "titulo": "5. ¿Cómo puedo atender observaciones? - Módulo Ejercicio del Gasto",
+          "descripcion": "Se explica cómo atender y solventar observaciones en el ejercicio del gasto, modificar o eliminar información, y solicitar nuevamente la validación de los registros de manera individual o masiva.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -248,6 +239,7 @@
         {
           "url": "https://www.youtube.com/watch?v=fFbQHskYrGI",
           "titulo": "6.  ¿Cómo puedo realizar una extracción o un reporte de extracción? - Módulo Ejercicio del gasto",
+          "descripcion": "Se explica cómo generar reportes del ejercicio y realizar extracciones de información del sistema, utilizando diferentes filtros para descargar los registros en formatos .xlsx y .csv.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -259,6 +251,7 @@
         {
           "url": "https://www.youtube.com/watch?v=k5ZNs0uN9Gc",
           "titulo": "7. Funciones del usuario Revisor - Módulo Ejercicio del Gasto",
+          "descripcion": "Se explica las funciones del usuario revisor para consultar, revisar, agregar y emitir observaciones, así como validar los registros del ejercicio del gasto y asegurar que la información aparezca correctamente en el reporte trimestral.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -270,6 +263,7 @@
         {
           "url": "https://www.youtube.com/watch?v=9DNtLv6tMQ8",
           "titulo": "8. Carga individual utilizando el catálogo de instituciones ejecutoras",
+          "descripcion": "Se explica cómo registrar individualmente el ejercicio del gasto utilizando el catálogo de instituciones ejecutoras, incluyendo la selección de la institución, el convenio específico y el envío del registro, así como el procedimiento para dar de alta una institución que no esté disponible.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -281,6 +275,7 @@
         {
           "url": "https://www.youtube.com/watch?v=LWbHGj5oNKY",
           "titulo": "9. Carga masiva utilizando el catálogo de instituciones ejecutoras",
+          "descripcion": "Se explica cómo realizar la carga masiva del ejercicio del gasto utilizando el nuevo catálogo de instituciones ejecutoras, incluyendo la consulta de claves, el llenado y carga de la plantilla, y el registro de una misma institución con diferentes convenios.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -292,6 +287,7 @@
         {
           "url": "https://www.youtube.com/watch?v=9oob179ig18",
           "titulo": "10. Alta individual de instituciones ejecutoras para revisores",
+          "descripcion": "Se explica cómo utilizar el catálogo de instituciones ejecutoras individual para consultar, agregar, editar y eliminar instituciones ejecutoras, así como asignarles y conservar sus claves correspondientes.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -303,6 +299,7 @@
         {
           "url": "https://www.youtube.com/watch?v=6t3_dctmE5M",
           "titulo": "11. Alta masiva de instituciones ejecutoras para revisores",
+          "descripcion": "Se explica cómo utilizar el catálogo de instituciones ejecutoras masivo para consultar, dar de alta, modificar y eliminar instituciones ejecutoras mediante archivos dentro del sistema de recursos federales transferidos.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -332,11 +329,14 @@
     {
       "id": 2,
       "titulo": "Indicadores",
-      "descripcion":"En esta sección encontrarás materiales de apoyo para el reporte de las metas y avances de los indicadores del desempeño del ámbito estatal y municipal de los Fondos de Aportaciones Federales, según corresponda.<br/><br/>Los video tutoriales de esta sección muestran, paso a paso, cómo capturar las metas y los avances en el cumplimiento de los indicadores, así como cómo revisar la información reportada y emitir las observaciones correspondientes.",
+      "colorActivo": "#f09d00",
+      "icono": "graphUpArrow",
+      "descripcion": "En este módulo se reportan los avances en el cumplimiento de los objetivos y metas de los Fondos de Aportaciones Federales (Ramo 33) y programas financiados con recursos federales, mediante el registro y seguimiento de indicadores de desempeño.<br/><br/>Los tutoriales de esta sección proporcionan una guía paso a paso para capturar la información requerida y dar seguimiento adecuado a los indicadores establecidos.",
       "videos": [
         {
           "url": "https://www.youtube.com/watch?v=ggN_AjIMvyA",
           "titulo": "1. Registro de avance de indicadores - Módulo Indicadores",
+          "descripcion": "Se explica el procedimiento para registrar el avance de indicadores en el sistema de recursos federales transferidos, incluyendo la captura de metas, línea base, avances, justificaciones y solicitud de validación.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -348,6 +348,7 @@
         {
           "url": "https://www.youtube.com/watch?v=4anWDxk_CgM",
           "titulo": "2. Funciones del usuario revisor de Indicadores - Módulo de Indicadores",
+          "descripcion": "Se explican las funciones del usuario revisor para revisar, validar y emitir observaciones a los indicadores registrados por los capturistas, así como dar seguimiento a su atención antes de incluirlos en el reporte trimestral.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -359,6 +360,7 @@
         {
           "url": "https://www.youtube.com/watch?v=61QIDH02bmA",
           "titulo": "3.  Carga masiva de observaciones -  Módulo de Indicadores",
+          "descripcion": "Se explica cómo realizar la carga masiva de observaciones de los indicadores mediante una plantilla, permitiendo validar, agregar, emitir y atender observaciones dentro del SRFT.",
           "botones": [
             {
               "descripcion": "Descarga el video",
@@ -468,20 +470,34 @@
           "descripcion": null,
           "url": "/work/models/PTP/Capacitacion/Resources/files/I-013 - FONE Servicios Personales.zip",
           "tipo": "zip"
-        },
-        {
-          "id": 12,
-          "titulo": "Directorio de los coordinadores de Fondos y de la Administración Pública Federal",
-          "descripcion": null,
-          "url": "/work/models/PTP/Capacitacion/Resources/files/enlaces_apf_recursos_federales_transferidos.xlsx",
-          "tipo": "xlsx"
         }
-      ]
+      ],
+      "tituloMatices": "Matrices de los Fondos de Aportaciones Federales",
+      "descripcionMatices": "Consulta las Matrices de Indicadores para Resultados de cada fondo."
     },
     {
       "id": 3,
       "titulo": "Evaluaciones",
-      "descripcion":"Esta sección se encuentra en proceso de migración al SRFT. Mientras concluye este proceso, la información correspondiente deberá reportarse a través del Sistema de Formato Único (SFU).",
+      "colorActivo": "#ce5241",
+      "icono": "checkCircleFill",
+      "descripcion": "Este módulo se encuentra en proceso de migración al Sistema de Recursos Federales Transferidos (SRFT). Mientras concluye este proceso, la información correspondiente continuará reportándose a través del Sistema de Formato Único (SFU).",
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=FUHLPkglvuQ",
+          "titulo": "1. FIDEFAF",
+          "botones": []
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=C4FhbPbsgs4",
+          "titulo": "2. Coordinación intergubernamental para la evaluación del gasto federalizado",
+          "botones": []
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=KStlNUuUAt8",
+          "titulo": "3. Retos de la evaluación del gasto federalizado",
+          "botones": []
+        }
+      ],
       "guias": [
         {
           "id": 0,

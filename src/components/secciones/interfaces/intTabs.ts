@@ -1,26 +1,22 @@
 import { IntVideo } from "./intInformacionGeneral";
 
 export interface IntCapacitacion {
-  colorActivo: string;
-  colorEncabezado: string;
-  textoCard: string;
-  fondoCard: string;
-  fondoSeccion: string;
-  textoSeccion: string;
   tabs: IntTab[];
 }
 
 export interface IntTab {
   id: number;
   titulo: string;
-  descripcion:string;
+  icono:string;
+  descripcion: string;
   videos: IntVideo[];
-  webinars:IntVideo[];
+  webinars: IntVideo[];
   guias?: IntRecurso[];
   matices?: IntRecurso[];
+  colorActivo: string;
+  tituloMatices?:string;
+  descripcionMatices?:string;
 }
-
-
 
 export interface IntRecurso {
   id: number;
