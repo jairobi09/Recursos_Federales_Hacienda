@@ -92,7 +92,7 @@ onBeforeUnmount(() => {
 </script>
 <template>
   <hr class="self-center mb-2.5 w-full pt-4 border-0 border-b-[1px] border-[#d1d1d1]">
-  <h2 class="subtitulo my-4">Marco Normativo</h2>
+  <h2 class="subtitulo my-4">Sustento Normativo</h2>
   <div class="w-full flex gap-4  items-center relative">
     <div ref="container" class="carousel px-[3rem]" @mouseenter="pause" @mouseleave="resume" @touchstart="pause"
       @touchend="resume">
