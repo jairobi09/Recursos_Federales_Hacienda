@@ -20,5 +20,3 @@ import VolverArriba from '../utils/VolverArriba.vue';
     </section>
 
 </template>
-<style scoped>
-</style>

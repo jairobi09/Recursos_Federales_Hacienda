@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue'
-import NavPlantillaItem from './NavPlantillaItem.vue'
+import NavPlantillaItem, { MenuItem } from './NavPlantillaItem.vue'
 import GobMxAccesibilidad_2 from './GobMxAccesibilidad_2.vue'
 
-const menu = ref([])
+const menu = ref<MenuItem[] | null>([])
 
 const getMenu = async () => {
   try {
@@ -107,7 +107,7 @@ onUnmounted(() => {
         </button>
       </div>
       <nav class="navbar" :class="isOpen ? 'mostrar' : ''">
-        <ul v-for="item in menu" class="menu">
+        <ul v-for="item in menu" class="menu" :key="item.id">
           <NavPlantillaItem
             :item="item"
             :width="width"

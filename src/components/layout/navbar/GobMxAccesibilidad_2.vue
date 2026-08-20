@@ -766,9 +766,9 @@ export default {
           }
           if (this.state.fontSize !== 0) {
             if (!el.dataset.gobmxBase) {
-              el.dataset.gobmxBase = parseFloat(window.getComputedStyle(el).fontSize)
+              el.dataset.gobmxBase = Number.parseFloat(window.getComputedStyle(el).fontSize)
             }
-            const n = parseFloat(el.dataset.gobmxBase) + this.state.fontSize
+            const n = Number.parseFloat(el.dataset.gobmxBase) + this.state.fontSize
             if (n >= 10 && n <= 32) el.style.fontSize = n + 'px'
           }
         })
@@ -804,8 +804,8 @@ export default {
         document.querySelectorAll(SEL_TEXT).forEach((el) => {
           if (isWidget(el)) return
           if (!el.dataset.gobmxBase)
-            el.dataset.gobmxBase = parseFloat(window.getComputedStyle(el).fontSize)
-          const n = parseFloat(el.dataset.gobmxBase) + this.state.fontSize
+            el.dataset.gobmxBase = Number.parseFloat(window.getComputedStyle(el).fontSize)
+          const n = Number.parseFloat(el.dataset.gobmxBase) + this.state.fontSize
           if (n >= 10 && n <= 32) el.style.fontSize = n + 'px'
         })
       }
@@ -896,8 +896,8 @@ export default {
       document.querySelectorAll(SEL_TEXT).forEach((el) => {
         if (isWidget(el)) return
         if (!el.dataset.gobmxBase)
-          el.dataset.gobmxBase = parseFloat(window.getComputedStyle(el).fontSize)
-        const n = parseFloat(el.dataset.gobmxBase) + this.state.fontSize
+          el.dataset.gobmxBase = Number.parseFloat(window.getComputedStyle(el).fontSize)
+        const n = Number.parseFloat(el.dataset.gobmxBase) + this.state.fontSize
         if (n >= 10 && n <= 32) el.style.fontSize = n + 'px'
       })
     },

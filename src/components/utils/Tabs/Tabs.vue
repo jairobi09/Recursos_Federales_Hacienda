@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import Tab from './Tab.vue'
-import FlechaArribaTrend from './FlechaTrendArriba.vue'
 import { IntCapacitacion } from '../../secciones/interfaces/intTabs.ts';
 import IconoTabs from '../IconoTabs.vue';
 

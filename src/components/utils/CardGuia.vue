@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 import { IntGuia } from '../secciones/interfaces/intInformacionGeneral.ts';
 import BotonDescarga from './BotonDescarga.vue';
-import FrameVideoYT from './FrameVideoYT.vue';
 interface IntProps {
     guia:IntGuia
 }

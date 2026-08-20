@@ -52,6 +52,7 @@ onUnmounted(() => {
   <Transition name="fade">
     <button
       v-show="mostrarBoton"
+      type="button"
       @click="irArriba"
       class="fixed flex items-center justify-center cursor-pointer bottom-4 text-2xl aspect-square w-[3rem] right-4 lg:right-6 z-50 rounded-full bg-[#04878c] text-[var(--color-blanco)] px-3 shadow-lg hover:scale-110 transition"
     >

@@ -12,13 +12,13 @@ interface IntIcono {
 
 const props = defineProps<IntIcono>()
 
-const extensionesExcel = ["xlsx", "xlsm"];
-const extensionesZip = ["zip", "rar"];
+const extensionesExcel = new Set(["xlsx", "xlsm"]);
+const extensionesZip = new Set(["zip", "rar"]);
 const bgColor = computed(() => {
   if (props.extension === 'csv') return '#0369a1'
-  if (extensionesExcel.includes(props.extension)) return '#16a34a'
+  if (extensionesExcel.has(props.extension)) return '#16a34a'
   if (props.extension === 'pdf') return '#FF2B00'
-  if (extensionesZip.includes(props.extension)) return '#b45309'
+  if (extensionesZip.has(props.extension)) return '#b45309'
   return '#b45309'
 })
 </script>
@@ -30,9 +30,9 @@ const bgColor = computed(() => {
 
   >
     <Csv class="text-white" v-if="extension === 'csv'" />
-    <Excel class="text-white" v-else-if="extensionesExcel.includes(extension)" />
+    <Excel class="text-white" v-else-if="extensionesExcel.has(extension)" />
     <Pdf class="text-white" v-else-if="extension === 'pdf'" />
-    <Zip class="text-white" v-else-if="extensionesZip.includes(extension)" />
+    <Zip class="text-white" v-else-if="extensionesZip.has(extension)" />
     <Link class="text-white" v-else />
   </div>
 </template>

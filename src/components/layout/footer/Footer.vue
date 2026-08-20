@@ -150,7 +150,6 @@ footer {
     font-family: "Patria", sans-serif;
 
     text-align: left;
-    /* text-transform: uppercase; */
 }
 
 .columna-footer ul {

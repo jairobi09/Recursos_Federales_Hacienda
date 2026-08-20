@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 
-type MenuItem = {
+export interface MenuItem  {
   id: number
   descripcion: string
   url: string
@@ -18,8 +18,8 @@ const props = defineProps<{
   toggleDropdown: (id: number) => void
 }>()
 const { item, toggleDropdown } = props
-const submenu = ref<Boolean>(false)
-const handleMostrarSubmenu = (value: Boolean) => {
+const submenu = ref<boolean>(false)
+const handleMostrarSubmenu = (value: boolean) => {
   submenu.value = value;
 };
 
@@ -39,7 +39,7 @@ const handleMostrarSubmenu = (value: Boolean) => {
             " :style="{ '--bg-nav': item?.texto }">
           {{ item?.descripcion }}
           <div v-show="submenu" class="flex w-auto flex-col opacity-100 transition-all contenedor-submenu">
-            <ul v-for="subitem in item?.submenu" class="menu">
+            <ul v-for="subitem in item?.submenu" class="menu" :key="subitem.id">
               <NavPlantillaItem :item="subitem" :width="props.width" :openDropdown="props.openDropdown"
                 :toggleDropdown="toggleDropdown" />
             </ul>
@@ -49,6 +49,7 @@ const handleMostrarSubmenu = (value: Boolean) => {
       <!--Si la pantalla es de móvil se renderiza como un acordion-->
       <div v-else class="w-full">
         <button @click="toggleDropdown(item.id)"
+        type="button"
           class="btn-menu-mobile leading-none flex  py-0 w-full items-center justify-between px-3 text-lg font-bold  transition-colors"
           :class="item?.nivel === 1
             ? 'hover:text-white text-[var(--bg-nav)] hover:bg-[var(--bg-nav)]'
@@ -63,7 +64,7 @@ const handleMostrarSubmenu = (value: Boolean) => {
           </svg>
         </button>
         <div class="mt-0 space-y-1 pl-4 acordion" :class="props.openDropdown === item.id ? 'mostrar-acordion' : ''">
-          <ul v-for="subitem in item.submenu" class="contenedor-submenu">
+          <ul v-for="subitem in item.submenu" class="contenedor-submenu" :key="subitem.id">
             <NavPlantillaItem :item="subitem" :width="width" :openDropdown="props.openDropdown"
               :toggleDropdown="toggleDropdown" />
 
@@ -106,7 +107,7 @@ const handleMostrarSubmenu = (value: Boolean) => {
 }
 
 .lista-nav {
-  font-family: Patria Bold;
+  font-family: "Patria Bold" ,  sans-serif;
 }
 
 .acordion {
@@ -155,10 +156,9 @@ const handleMostrarSubmenu = (value: Boolean) => {
 
   .contenedor-submenu .contenedor-menu {
     margin-bottom: 0.25rem;
-    text-align: center;
+    text-align: start;
     justify-content: start;
     padding: 0.5rem 0.75rem;
-    text-align: start;
   }
 }
 </style>

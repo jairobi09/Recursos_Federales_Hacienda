@@ -18,8 +18,8 @@ const props = defineProps<IntProps>();
             'flex-1':!video.descripcion
         }" v-if="video.titulo" v-html="video.titulo"></h4>
         <p class="flex-1 text-sm" v-if="video.descripcion" v-html="video.descripcion"></p>
-        <div class="flex flex-wrap items-center justify-end gap-4">
-            <BotonDescarga v-if="video.botones" v-for="boton in video.botones" :key="boton.url" :boton="boton" />
+        <div v-if="video.botones" class="flex flex-wrap items-center justify-end gap-4">
+            <BotonDescarga  v-for="boton in video.botones" :key="boton.url" :boton="boton" />
         </div>
     </div>
 </template>

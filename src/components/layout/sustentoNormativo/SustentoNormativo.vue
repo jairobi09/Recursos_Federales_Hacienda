@@ -116,12 +116,14 @@ onBeforeUnmount(() => {
     </div>
     <button
       class="rounded-full absolute boton-flecha left-1  w-[2.5rem] h-[2.5rem] text-xl flex items-center justify-center bg-[#ec7537] opacity-30 hover:opacity-100 text-white cursor-pointer"
-      @click="move(-300)" aria-label="Mover hacia la izquierda">
+      @click="move(-300)" aria-label="Mover hacia la izquierda"
+      type="button">
       ←
     </button>
     <button
       class="rounded-full absolute right-1 boton-flecha  w-[2.5rem] h-[2.5rem] text-xl flex items-center justify-center bg-[#ec7537] opacity-30 hover:opacity-100 text-white cursor-pointer"
-      @click="move(300)" aria-label="Mover hacia la derecha">
+      @click="move(300)" aria-label="Mover hacia la derecha"
+      type="button">
       →
     </button>
   </div>
@@ -174,7 +176,7 @@ onBeforeUnmount(() => {
 }
 
 .subtitulo {
-  font-family: Patria Bold;
+  font-family: "Patria Bold" ,  sans-serif;
   color: #ec7537;
   text-align: center;
 }

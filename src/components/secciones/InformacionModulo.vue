@@ -39,4 +39,3 @@ const videoWebinar = {
         </div>
     </main>
 </template>
-<style scoped></style>
