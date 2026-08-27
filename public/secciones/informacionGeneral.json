@@ -22,8 +22,8 @@
       "guias":[
         {
             "id":0,
-            "titulo":"Guía de conceptos y criterios RFT",
-            "descripcion":"Guía de conceptos y criterios para el reporte del ejercicio, destino y resultados de los Recursos Federales Transferidos",
+            "titulo":"Guía de conceptos y criterios para el reporte del ejercicio, destino y resultados de los Recursos Federales Transferidos",
+            "descripcion":"Documento de referencia que establece los fundamentos normativos, conceptos y criterios que los usuarios del SRFT deben considerar para el registro y revisión de la información en el sistema. <br/><br> <strong class='text-xs'>Nota: Debido a cambios recientes, esta guía se encuentra en proceso de actualización.</strong>",
             "url":"https://www.transparenciapresupuestaria.gob.mx/work/models/PTP/Capacitacion/Resources/files/guia_criterios.pdf",
             "tipo":"pdf"
         }
@@ -33,7 +33,7 @@
      "videos": [
         {
           "url": "https://www.youtube.com/watch?v=qBG5uSR6b7o",
-          "titulo":"Ingreso al Sistema RFT",
+          "titulo":"Ingreso al SRFT",
           "botones":[
              {
                 "descripcion":"Consulta",
@@ -44,7 +44,7 @@
         },
         {
           "url": "https://www.youtube.com/watch?v=nzhf5D-1Yc4",
-          "titulo":"Solicitud de Usuarios en el RFT",
+          "titulo":"Solicitud de usuarios en el SRFT",
           "botones":[
              {
                 "descripcion":"Descarga el video",

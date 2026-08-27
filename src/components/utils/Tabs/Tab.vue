@@ -21,7 +21,7 @@ const props = defineProps<{
       </div>
     </div>
     <div v-if="tab.guias" class="grid grid-cols-6 gap-4 mb-12">
-      <h4 class="col-span-full text-center text-[var(--color-card)] ">Consulta las guías de apoyo</h4>
+      <h4 class="col-span-full text-center text-[var(--color-card)] ">{{ tab.id === 3 ?'Consulta las guías de apoyo' :'Consulta las guías de usuario' }}</h4>
       <div :class="getCardClass(tab?.guias.length,idx,3)" v-for="(guia, idx) in tab?.guias" :key="guia.url">
         <CardGuia :guia="guia" />
       </div>

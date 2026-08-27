@@ -58,7 +58,7 @@ onMounted(async () => {
             prácticos y recomendaciones clave para optimizar el uso de las herramientas del sistema.
           </p>
           <span class="text-xs pt-4"><strong>Nota</strong></span>
-          <span class="text-xs">El <strong> módulo Evaluaciones</strong> se encuentra en construcción. Las evaluaciones
+          <span class="text-xs font-bold">El <strong> módulo Evaluaciones</strong> se encuentra en construcción. Las evaluaciones
             a Fondos de
             Aportaciones Federales y programas de recursos federales transferidos en el ámbito subnacional se reportan
             en el <strong>Sistema de Formato Único (SFU).</strong></span>

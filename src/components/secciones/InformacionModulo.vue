@@ -15,7 +15,7 @@ onMounted(async () => {
 const videoWebinar = {
     "titulo": "Webinars",
     "descripcion":"Consulta los webinars impartidos cada trimestre y accede a las grabaciones disponibles.",
-    "colorActivo":"#04878c",
+    "colorActivo":"#ec7537",
     "botones": [{
         "url": "https://youtube.com/playlist?list=PL70v4ugUBnBQNsfkHk5ivsISq3dQAY3xk&si=NyM8bSdtuJKPB1WY",
         "descripcion": "Consulta",
@@ -35,6 +35,7 @@ const videoWebinar = {
             <Tabs v-show="datos.tabs.length > 0" :datos="datos" />
         </div>
         <div class="my-12" >
+            <h2 class="text-[#ec7537] text-center pt-12 mb-6">Webinars</h2>
             <CardVideoYT :video="videoWebinar" />
         </div>
     </main>
