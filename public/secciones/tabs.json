@@ -500,13 +500,6 @@
       ],
       "guias": [
         {
-          "id": 0,
-          "titulo": "Sistema de Formato Único",
-          "descripcion": null,
-          "url": "/work/models/PTP/Capacitacion/Resources/files/guia_evaluaciones.pdf",
-          "tipo": "pdf"
-        },
-        {
           "id": 1,
           "titulo": "Manual de operación",
           "descripcion": "Manual de Operación del Módulo de Evaluación del Sistema de Formato Único",
