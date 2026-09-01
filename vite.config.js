@@ -16,7 +16,7 @@ export default defineConfig(({ command }) => {
       },
     },
 
-    base: isDev ? '/' : '/work/models/PTP/NPTP/PTP_Doc_Ciudadanos/SRFT/',
+    base: isDev ? '/' : '/work/models/PTP/NPTP/PTP_SRFT/',
 
     build: {
       emptyOutDir: true,
