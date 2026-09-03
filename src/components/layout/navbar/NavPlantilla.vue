@@ -5,10 +5,11 @@ import GobMxAccesibilidad_2 from './GobMxAccesibilidad_2.vue'
 
 const menu = ref<MenuItem[] | null>([])
 
+//@ts-ignore
+const urlBase= '/work/models/PTP/NPTP/PTP_Layout/navbar/';
 const getMenu = async () => {
   try {
-    //@ts-ignore
-    const response = await fetch(`${import.meta.env.BASE_URL}layout/navbar.json`)
+    const response = await fetch(`${urlBase}navbar.json`)
     const data = await response.json()
     menu.value = data
   } catch (error) {
@@ -50,7 +51,7 @@ onUnmounted(() => {
       <div class="logo">
         <a href="/">
           <img
-            src="../../../assets/logo.png"
+            :src="`${urlBase}logo.png`"
             alt="Transparencia Presupuestaria"
             class="block h-[42px] w-[37px]"
           />
