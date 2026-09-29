@@ -3,18 +3,22 @@ import { onMounted, onUnmounted, ref } from 'vue'
 import NavPlantillaItem, { MenuItem } from './NavPlantillaItem.vue'
 import GobMxAccesibilidad_2 from './GobMxAccesibilidad_2.vue'
 
-const menu = ref<MenuItem[] | null>([])
-
+const menu = ref<datosMenu | null>(null)
+interface datosMenu{
+  botones: MenuItem[],
+  inicio:string,
+  logo:string
+}
 //@ts-ignore
 const urlBase= '/work/models/PTP/NPTP/PTP_Layout/navbar/';
 const getMenu = async () => {
   try {
-    const response = await fetch(`${urlBase}navbar.json`)
+    const response = await fetch(`${urlBase}navbar_v2.json`)
     const data = await response.json()
     menu.value = data
   } catch (error) {
     console.error('Error cargando menú:', error)
-    menu.value = []
+    menu.value = null
   }
 }
 
@@ -47,11 +51,11 @@ onUnmounted(() => {
 </script>
 <template>
   <header class="header sticky top-0 z-20 bg-[#f5f5f5] shadow-sm">
-    <div class="header-container">
+    <div class="header-container" v-if="menu">
       <div class="logo">
-        <a href="/">
+        <a :href="menu.inicio">
           <img
-            :src="`${urlBase}logo.png`"
+            :src="menu.logo"
             alt="Transparencia Presupuestaria"
             class="block h-[42px] w-[37px]"
           />
@@ -108,7 +112,7 @@ onUnmounted(() => {
         </button>
       </div>
       <nav class="navbar" :class="isOpen ? 'mostrar' : ''">
-        <ul v-for="item in menu" class="menu" :key="item.id">
+        <ul v-for="item in menu?.botones" class="menu" :key="item.id">
           <NavPlantillaItem
             :item="item"
             :width="width"

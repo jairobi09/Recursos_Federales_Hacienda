@@ -107,7 +107,7 @@ const handleMostrarSubmenu = (value: boolean) => {
 }
 
 .lista-nav {
-  font-family: "Patria Bold" ,  sans-serif;
+  font-family: "Patria Bold", "Patria-Bold" ,  sans-serif;
 }
 
 .acordion {
@@ -139,7 +139,7 @@ const handleMostrarSubmenu = (value: boolean) => {
   }
 
   .contenedor-menu {
-    max-width: 10rem;
+    max-width: 12rem;
     align-items: center;
     justify-content: center;
 
